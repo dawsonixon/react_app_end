@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" name="react_app assets" inherit_id="web.assets_frontend">
+        <xpath expr=".">
+            <!-- Dodajemy skrypty JavaScript -->
+            <script type="text/javascript" src="/react_app/static/js/main.js"/>
+            <script type="text/javascript" src="/react_app/static/js/227.9ae6d405.chunk.js"/>
+            <script type="text/javascript" src="/react_app/static/js/526.98299ace.chunk.js"/>
+            <script type="text/javascript" src="/react_app/static/js/232.7f3aebdd.chunk.js"/>
+            <script type="text/javascript" src="/react_app/static/js/237.cc686ff5.chunk.js"/>
+
+            <!-- Dodajemy pliki CSS -->
+            <link rel="stylesheet" type="text/css" href="/react_app/static/css/main.css"/>
+        </xpath>
+    </template>
+</odoo>
